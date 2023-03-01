@@ -1,0 +1,174 @@
+* {
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    background-color: rgb(233, 232, 217);
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    background-color: rgb(239, 245, 188);
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    float: right;
+}
+
+#logo1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin: 10px 0 10px 20px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 10px;
+    font-family: 'Righteous', cursive;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+a {
+    color: #38290d;
+    text-decoration: none;
+}
+
+#remember {
+    position: absolute;
+    display: inline-block;
+    padding: 20px 10px;
+    font-family: 'Righteous', cursive;
+    margin-left: 30px;
+    color: #211704;
+    font-size: 30px;
+}
+
+main {
+
+    margin-top: 80px;
+}
+
+#info {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 6%;
+    width: 400px;
+    padding-bottom: 70px;
+}
+
+#photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 100px 0 100px 100px;
+    float: left;
+    margin-top: 10px;
+}
+
+
+
+#name {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 40%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 90px;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    margin: 30px;
+    margin-bottom: 220px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 40%;
+    margin-right: 10%;
+
+
+}
+
+section#form-title {
+    font-size: 50px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    padding-left: 45%;
+
+}
+
+section#form {
+    margin: 50px 400px;
+    
+}
+
+input,
+select,
+button {
+    padding: 12px 20px;
+}
+
+input,
+select,
+button {
+    padding: 12px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+
+
+footer {
+    margin-top: 230px;
+    background-color: rgb(239, 245, 188);
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+#logo2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin: 10px 0 10px 20px;
+    float: left;
+    margin-top: 10px;
+}
+
+#copy {
+    position: absolute;
+    display: inline-block;
+    padding: 20px 10px;
+    margin-left: 30px;
+    color: #211704;
+    font-size: 15px;
+}
+
+#follow {
+    display: inline-block;
+    padding: 20px 10px;
+    font-family: 'Righteous', cursive;
+    margin-right: 30px;
+    margin-top: 10px;
+    float: right;
+}
