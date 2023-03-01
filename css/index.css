@@ -6,11 +6,14 @@ body {
     background-color: rgb(233, 232, 217);
     display: flex;
     flex-direction: column;
+
     height: 100%;
+
 
 }
 
 header {
+
     
     background-color: rgb(239, 245, 188);
    
@@ -25,11 +28,13 @@ header {
 
 
 
+
 #logo1 {
     width: 35px;
     height: 35px;
     border-radius: 100%;
     margin: 10px 0 10px 20px;
+
     padding-top: 10%;
     
     
@@ -47,6 +52,7 @@ nav ul li{
     font-family: 'Righteous', cursive;
     padding-right: 30px;
     
+
 }
 
 a {
@@ -54,6 +60,7 @@ a {
     text-decoration: none;
 }
 #remember {
+
    
    
   
@@ -63,6 +70,7 @@ a {
    font-size: 30px;
 padding-top: 1%;
 }
+
 
 
 table {
@@ -77,6 +85,7 @@ td, th {
 }
 
 th {
+
     padding: 5% 5%;
 }
 
@@ -85,17 +94,22 @@ td {
 }
 #table{
     margin: 5% 15% 0% 15%;
+
     background-color: #b1a863;
     box-shadow: 0px 4px 6px #342d1875;
 }
 footer{
+
     display: flex;
     justify-content: space-between;
+
     margin-top: 230px;
     background-color: rgb(239, 245, 188);
     position: relative;
     width: 100%;
+
     
+
 }
 #logo2{
     width: 35px;
@@ -107,9 +121,11 @@ footer{
 }
 
 #copy{
+
   
     margin-top: 15%;
     width: 100%;
+
     margin-left: 30px;
     color: #211704;
     font-size: 15px;
