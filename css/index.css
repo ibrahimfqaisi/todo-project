@@ -7,36 +7,52 @@ body {
     display: flex;
     flex-direction: column;
 
+    height: 100%;
+
+
 }
 
 header {
+
+    
     background-color: rgb(239, 245, 188);
-    position: fixed;
+   
     width: 100%;
-    top: 0;
+   display: flex;
+   justify-content: space-between;
+  align-items: start;
+
+
 }
 
-nav {
-    float: right;
-}
+
+
+
 
 #logo1 {
     width: 35px;
     height: 35px;
     border-radius: 100%;
     margin: 10px 0 10px 20px;
-    float: left;
-    margin-top: 10px;
+
+    padding-top: 10%;
+    
+    
 
 }
+nav ul {
+display: flex;
+}
+
 nav ul li{
 
 
-display: inline-block;
-    padding: 20px 10px;
+
+   padding-top: 15%;
     font-family: 'Righteous', cursive;
-    margin-right: 30px;
-    margin-top: 10px;
+    padding-right: 30px;
+    
+
 }
 
 a {
@@ -44,19 +60,18 @@ a {
     text-decoration: none;
 }
 #remember {
-   position: absolute;
-   display: inline-block;
-   padding: 20px 10px;
+
+   
+   
+  
    font-family: 'Righteous', cursive;
-   margin-left: 30px;
+ 
    color: #211704;
    font-size: 30px;
+padding-top: 1%;
+}
 
-}
-main{
-  
-    margin-top: 60px;
-}
+
 
 table {
     width: 100%;
@@ -70,23 +85,31 @@ td, th {
 }
 
 th {
-    padding: 35px 20px;
+
+    padding: 5% 5%;
 }
 
 td {
-    padding: 15px;
+    padding: 3%;
 }
 #table{
-    margin: 20px 100px;
+    margin: 5% 15% 0% 15%;
+
     background-color: #b1a863;
     box-shadow: 0px 4px 6px #342d1875;
 }
 footer{
+
+    display: flex;
+    justify-content: space-between;
+
     margin-top: 230px;
     background-color: rgb(239, 245, 188);
     position: relative;
     width: 100%;
-    bottom: 0;
+
+    
+
 }
 #logo2{
     width: 35px;
@@ -98,9 +121,11 @@ footer{
 }
 
 #copy{
-    position: absolute;
-    display: inline-block;
-    padding: 20px 10px;
+
+  
+    margin-top: 15%;
+    width: 100%;
+
     margin-left: 30px;
     color: #211704;
     font-size: 15px;
